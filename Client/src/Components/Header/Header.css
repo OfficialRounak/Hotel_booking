@@ -1,0 +1,119 @@
+.header{
+    background-color:#002D62;
+    color: white;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.headerContainer{
+    width: 100%;
+    max-width: 1024px;
+    margin: 20px 0px 100px 0px;
+
+   }
+.headerContainer.listMode{
+    margin: 20px 0px 0px 0px;
+}
+
+.headerList{
+    display: flex;
+    gap: 40px; 
+    margin-bottom: 20px;
+}
+.headerListItems{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.headerListItems.active{
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 10px;
+}
+.headerDescription{
+    margin: 20px 0px;
+}
+.headerButton{
+    border-style: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    color: #fbfbfc;
+    background-color:#2a52be;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 28px;
+}
+.headerSearch{ 
+    height: 30px;
+    display: flex;
+    border: 5px solid rgb(243, 190, 16);
+    background-color: white;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 0px;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 1024px;
+    position: absolute;
+    bottom: -25px;
+}
+.headerIcon{
+    background-color:gray;
+}
+.headerSearchItem{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: darkgray;
+    z-index: 2;
+}
+.headerSearchInput{
+    border: none;
+    outline: none;
+}
+.headerSearchText{
+    color: lightgray;
+    cursor: pointer;
+}
+.date{
+    position: absolute;
+    top: 50px;
+}
+.accomodation{
+    position: absolute;
+    top: 52px;
+    width: 20%;
+    padding: 20px 10px;
+    /* border: 2px solid gray; */
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: white;
+}
+.searchSelectOption{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    align-items: center;
+}
+.searchSelectOptionButtonBox{
+    display: flex;
+    justify-content: space-between;
+    color: gray;
+    /* background-color: red; */
+    padding: 0 10px;
+}
+.searchSelectOptionButtons{
+   width: 30px;
+   height: 30px;
+   border: 1px solid lightslategray;
+   color: black;
+   cursor: pointer;
+   border-radius: 5px;
+   margin: 0px 5px;
+}
+.searchSelectOptionButtons:disabled{
+    cursor: not-allowed;
+}
+

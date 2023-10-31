@@ -1,0 +1,102 @@
+.listViewCard{
+    display: flex;
+    align-items: center;
+    border: 2px solid lightgray;
+    border-radius: 5px;
+    justify-content: space-between;
+    gap: 8px;
+    padding: 7px;
+    margin-bottom: 5px;
+}
+.listViewCardIMG{
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    
+}
+.viewCardInfo{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin: 0 5px;
+    
+}
+.siTitle{
+    font-size: 20px;
+    font-weight: bold;
+    color: #2a52be;
+}
+.siDistance{
+    font-weight: 500;
+    font-size: 15px;
+}
+.siTaxiOp{
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    width: max-content;
+    font-size: 13px;
+}
+.siSubtitle{
+    font-weight: bold;
+    font-size: 15px;
+    white-space: nowrap;
+}
+.siFeatures{
+    font-size: 13px;
+    font-weight: 400;
+}
+.siCancelOp{
+    color: rgb(19, 164, 19);
+    font-weight: 800;
+}
+.siCancelOpSubtitle{
+    color: rgb(19, 164, 19);
+    font-weight: 500;
+    white-space: nowrap;
+}
+.viewCardDetails{
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px;
+}
+.viewCardDetailsRating{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 80px;
+}
+.RatingRemark{
+    font-weight: bold;
+}
+.ratingMark{
+    background-color: darkblue;
+    color: white;
+    width: 30px;
+    text-align: center;
+    font-size: 14px;
+    padding: 3px;
+}
+/* .hotelCost{
+    background-color: lightblue;
+} */
+.cost{
+    text-align: right;
+    font-weight: bolder;
+}
+.hotelTax{
+    text-align: right;
+    color: gray;
+    font-style: 12px;
+    margin-bottom: 5px;
+}
+.detailsButton{
+    border: none;
+    padding: 15px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    background-color: #2a52be;
+    white-space: nowrap;
+}

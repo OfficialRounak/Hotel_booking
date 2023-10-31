@@ -1,0 +1,49 @@
+.mailListContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 70px 0;
+    background-color: #002D62;
+    color: white;
+    margin-top: 40px;
+}
+
+.mailListHeading{
+    font-size: 20px;
+    font-weight: 500;
+}
+.mailListContent{
+    font-size: 14px;
+    font-weight: 300;
+    color: rgb(173, 164, 164);
+    margin-bottom: 20px;
+}
+.mailBoxInput{
+    margin-right: 5px;
+    padding: 3px 15px;
+    height: 35px;
+    width: 257px;
+    border-radius: 6px;
+    border: none;
+}
+.mailBoxButton{
+    height: 41px;
+    border: none;
+    background-color:#2a52be;
+    color: white;
+    padding:3px 5px;
+    width: 120px;
+    border-radius: 6px;
+    font-weight: 400;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.mailListCheckboxContainer{
+    margin-top: 20px;
+}
+
+.mailListCheckbox{
+    margin-right: 10px;
+}
+

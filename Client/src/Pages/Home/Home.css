@@ -1,0 +1,28 @@
+.home_Container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    margin-top: 50px;
+}
+.propertyListContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+
+}
+.RatedProtertyListContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+.homeHeadings{
+    width: 100%;
+    max-width: 1024px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 800;
+    font-size: 30px;
+}

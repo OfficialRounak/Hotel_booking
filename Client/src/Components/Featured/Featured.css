@@ -1,0 +1,31 @@
+.featuredContainer{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    z-index: 1;
+}
+.featuredBoxImg{
+    width: 100%;
+    object-fit: cover;
+    
+}
+.featuredBox{
+    position: relative;
+    color: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.featuredBoxCountry{
+    position: absolute;
+    bottom: 50px;
+    left: 15px;
+}
+.featuredBoxProperties{
+    position: absolute;
+    bottom: 20px;
+    left: 15px;
+}
+

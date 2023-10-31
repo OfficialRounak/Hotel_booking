@@ -1,0 +1,66 @@
+.footerContainer {
+    width: 100%;
+    /* max-width: 1024px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.propertyListing {
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2a52be;
+
+}
+
+.propertyListButton {
+    background-color: #2a52be;
+    border: 1px solid white;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 2px;
+}
+
+.footerOptions {
+    width: 100%;
+    /* max-width: 1024px; */
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    /* gap: 20px; */
+    background-color: #002D62;
+
+
+}
+.footerStyleWrapper{
+    max-width: 1024px;
+    width: 100%;
+
+}
+.footerOption {
+    /* border-bottom: 1px solid white; */
+    color: white;
+    padding: 0px 35px;
+}
+.footerWrapper {
+    max-width: 1024;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+}
+.footerList {
+    list-style: none;
+    padding: 20px;
+
+}
+.footerListItems{
+    color: black;
+    cursor: pointer;
+}
